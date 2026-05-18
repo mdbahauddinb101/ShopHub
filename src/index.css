@@ -3,3 +3,7 @@
 .container{
   @apply  max-w-340 mx-auto ;
 }
+
+.banner-container{
+  @apply  flex items-center gap-36.5;
+}
