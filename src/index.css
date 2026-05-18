@@ -5,5 +5,10 @@
 }
 
 .banner-container{
-  @apply  flex items-center gap-36.5;
+  @apply  flex items-center gap-84.25;
+}
+
+
+.sub-image{
+  @apply flex flex-col items-center gap-4;
 }
