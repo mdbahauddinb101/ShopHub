@@ -1,6 +1,7 @@
 import Header from './Components/Header'
 import Banner from './Components/Banner'
 import Categories from './Components/Categories'
+import Featured from './Components/Featured'
 
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
    <Header/>
    <Banner/>
    <Categories/>
+   <Featured/> 
    </>
   )
 }
