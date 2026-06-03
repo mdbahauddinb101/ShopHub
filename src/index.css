@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .container{
-  @apply  max-w-340 mx-auto ;
+  @apply  max-w-7xl mx-auto ;
 }
 
 .banner-container{
@@ -14,7 +14,18 @@
 }
 
 
-      .featured-card-container{
-        
+      .featured-card{
+        @apply bg-white px-4 py-3.5 rounded-lg h-86 w-71.5;
       }
-.
+
+#featured{
+  @apply bg-[#E5E7EB] h-135 py-16;
+}
+
+.value-container{
+  @apply flex  justify-between;
+}
+
+.featured-header{
+  @apply flex justify-between items-center mb-8;
+}
